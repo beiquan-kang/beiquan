@@ -1,0 +1,307 @@
+.us-rate-section {
+    font-family: var(--font-text);
+  }
+
+  .us-rate-toolbar {
+    min-height: 46px;
+    padding: 7px 12px 7px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    border-bottom: 1px solid var(--line, #dbe2ea);
+  }
+
+  .us-rate-toolbar > span {
+    color: var(--muted, #8595a6);
+    font-size: 10px;
+  }
+
+  .us-rate-range {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--line, #dbe2ea);
+  }
+
+  .us-rate-range button {
+    min-width: 48px;
+    min-height: 28px;
+    padding: 3px 9px;
+    color: var(--text, #42566a);
+    border: 0;
+    border-right: 1px solid var(--line, #dbe2ea);
+    background: var(--paper, #ffffff);
+    cursor: pointer;
+    font-family: Arial, "KaiTi", "STKaiti", serif;
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .us-rate-range button:last-child {
+    border-right: 0;
+  }
+
+  .us-rate-range button:hover {
+    color: var(--ink, #051c2c);
+    background: var(--panel, #f7f9fc);
+  }
+
+  .us-rate-range button[aria-pressed="true"] {
+    color: var(--paper, #ffffff);
+    background: var(--ink, #051c2c);
+  }
+
+  .us-rate-chart-stack {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .us-rate-panel {
+    min-width: 0;
+    border-bottom: 1px solid var(--line, #dbe2ea);
+    background: rgba(255, 255, 255, 0.94);
+  }
+
+  .us-rate-panel-head {
+    min-height: 58px;
+    padding: 0 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid var(--line-light, #eef1f6);
+  }
+
+  .us-rate-panel-head > div:first-child {
+    min-width: 0;
+  }
+
+  .us-rate-panel-head h3 {
+    margin: 0;
+    color: var(--ink, #051c2c);
+    font-size: 17px;
+    line-height: 1.25;
+  }
+
+  .us-rate-panel-head time {
+    display: block;
+    margin-top: 3px;
+    color: var(--muted, #8595a6);
+    font-family: Arial, "KaiTi", "STKaiti", serif;
+    font-size: 9px;
+    line-height: 1.4;
+  }
+
+  .us-rate-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7px 18px;
+    font-family: Arial, "KaiTi", "STKaiti", serif;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .us-rate-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--text, #42566a);
+    font-size: 9px;
+    white-space: nowrap;
+  }
+
+  .us-rate-legend i {
+    width: 12px;
+    height: 2px;
+    background: var(--series-color);
+  }
+
+  .us-rate-legend b {
+    color: var(--ink, #051c2c);
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+  }
+
+  .us-rate-current {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    white-space: nowrap;
+  }
+
+  .us-rate-current span {
+    color: var(--muted, #8595a6);
+    font-size: 9px;
+  }
+
+  .us-rate-current b {
+    color: var(--blue, #2251ff);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .us-rate-current b.is-negative {
+    color: var(--down, #16806a);
+  }
+
+  .us-rate-chart-body {
+    position: relative;
+    min-width: 0;
+    padding: 0 4px;
+  }
+
+  .us-rate-chart-body svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    color: var(--muted, #8595a6);
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+  }
+
+  .us-rate-y-axis line {
+    stroke: var(--line-light, #eef1f6);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .us-rate-y-axis text,
+  .us-rate-x-axis text {
+    fill: var(--muted, #8595a6);
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .us-rate-x-axis line {
+    stroke: var(--line, #dbe2ea);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .us-rate-line {
+    stroke-width: 1.45;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .us-rate-spread-line {
+    stroke: var(--blue, #2251ff);
+  }
+
+  .us-rate-spread-area {
+    pointer-events: none;
+  }
+
+  .us-rate-spread-area--positive {
+    fill: rgba(34, 81, 255, 0.10);
+  }
+
+  .us-rate-spread-area--negative {
+    fill: rgba(22, 128, 106, 0.10);
+  }
+
+  .us-rate-zero-line {
+    stroke: var(--ink, #051c2c);
+    stroke-width: 1.05;
+    opacity: 0.72;
+    pointer-events: none;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .us-rate-hover-guide {
+    stroke: var(--blue, #2251ff);
+    stroke-width: 1;
+    stroke-dasharray: 2 4;
+    opacity: 0;
+    pointer-events: none;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .us-rate-hover-markers {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .us-rate-hover-markers circle {
+    stroke: var(--paper, #ffffff);
+    stroke-width: 1.2;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .us-rate-hover-markers [data-rate-marker="spread"] {
+    fill: var(--blue, #2251ff);
+  }
+
+  .us-rate-plot-hit {
+    fill: transparent;
+    cursor: crosshair;
+  }
+
+  .us-rate-tooltip {
+    position: absolute;
+    z-index: 20;
+    min-width: 128px;
+    max-width: 220px;
+    padding: 7px 10px;
+    color: var(--paper, #ffffff);
+    background: var(--ink, #051c2c);
+    border-radius: 3px;
+    box-shadow: 0 8px 22px rgba(5, 28, 44, 0.18);
+    font-family: Arial, "KaiTi", "STKaiti", serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1.55;
+    white-space: pre-line;
+    pointer-events: none;
+  }
+
+  .us-rate-source {
+    padding: 7px 14px 8px;
+    color: var(--muted, #8595a6);
+    background: var(--panel, #f7f9fc);
+    font-size: 9px;
+    line-height: 1.55;
+  }
+
+  .us-rate-source p {
+    margin: 0;
+  }
+
+  .us-rate-warning {
+    color: #9a5c0a;
+  }
+
+  @media (width <= 640px) {
+    .us-rate-toolbar,
+    .us-rate-panel-head {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .us-rate-toolbar {
+      gap: 6px;
+      padding-block: 10px;
+    }
+
+    .us-rate-range {
+      width: 100%;
+    }
+
+    .us-rate-range button {
+      min-width: 0;
+      flex: 1 1 20%;
+    }
+
+    .us-rate-panel-head {
+      gap: 8px;
+    }
+
+    .us-rate-legend {
+      justify-content: flex-start;
+    }
+  }

@@ -1,0 +1,57 @@
+<section class="usl-dashboard" data-us-liquidity-dashboard>
+  <section class="usl-daily-summary" data-usl-daily-summary aria-labelledby="usl-daily-summary-title">
+    <header class="usl-daily-summary-head">
+      <div>
+        <span>日度摘要</span>
+        <h3 id="usl-daily-summary-title">美元流动性日报</h3>
+      </div>
+      <time data-usl-summary-date>正在读取</time>
+    </header>
+    <div class="usl-daily-summary-body">
+      <div>
+        <strong>结论</strong>
+        <p data-usl-summary-conclusion>正在生成本期摘要</p>
+      </div>
+      <div>
+        <strong>关键变化</strong>
+        <p data-usl-summary-changes>正在整理新增观察</p>
+      </div>
+      <div>
+        <strong>数据</strong>
+        <p data-usl-summary-data>正在核对数据完整性</p>
+      </div>
+    </div>
+  </section>
+
+  <div data-usl-embedded-charts hidden>
+    <!--USD_RATE_CHART-->
+  </div>
+  <div class="usl-dashboard-grid">
+    <aside class="usl-nav-shell">
+      <nav class="usl-indicator-nav" data-usl-navigation aria-label="美元流动性指标导航">
+        <div class="usl-nav-loading">正在生成指标导航</div>
+      </nav>
+    </aside>
+
+    <div class="usl-dashboard-main">
+      <header class="usl-dashboard-head">
+        <div>
+          <span>市场数据追踪</span>
+          <p>六个大类默认展开，联邦基金目标区间历史与指标口径按需展开</p>
+        </div>
+        <div class="usl-data-state" data-usl-data-state aria-live="polite">
+          <strong>正在读取数据</strong>
+          <small>请稍候</small>
+        </div>
+      </header>
+
+      <div class="usl-mobile-nav" data-usl-mobile-navigation></div>
+
+      <div class="usl-module-stack" data-usl-modules>
+        <div class="usl-loading">正在载入美元流动性历史数据</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="usl-toast" data-usl-toast role="status" aria-live="polite" hidden></div>
+</section>

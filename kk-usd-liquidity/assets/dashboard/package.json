@@ -1,0 +1,13 @@
+{
+  "name": "usd-liquidity-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "init": "node scripts/initialize.mjs",
+    "update": "node scripts/update.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs"
+  }
+}

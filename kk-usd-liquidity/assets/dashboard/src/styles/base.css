@@ -1,0 +1,93 @@
+:root {
+  --ink: #051c2c;
+  --blue: #2251ff;
+  --blue-deep: #1233b8;
+  --blue-pale: #e9efff;
+  --text: #42566a;
+  --muted: #8595a6;
+  --line: #dbe2ea;
+  --line-light: #eef1f6;
+  --panel: #f7f9fc;
+  --up: #c22f4e;
+  --down: #16806a;
+  --paper: #ffffff;
+  --font-text: Arial, "KaiTi", "STKaiti", serif;
+  --font-data: Arial, "KaiTi", "STKaiti", serif;
+  --dashboard-width: 1540px;
+  --reading-width: 800px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  color: var(--ink);
+  background: var(--paper);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle, rgba(34, 81, 255, 0.07) 0.55px, transparent 0.65px) 0 0 / 20px 20px,
+    var(--paper);
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+summary {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  color: var(--paper);
+  background: var(--blue);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.container {
+  width: min(var(--dashboard-width), calc(100% - 48px));
+  margin-inline: auto;
+}

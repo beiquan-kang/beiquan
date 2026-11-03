@@ -6,6 +6,8 @@
 
 ## 我的 Skill 与研究实践
 
+- [美元流动性看板](kk-usd-liquidity/SKILL.md)
+
 - [研究工作流：设计思路与使用准备](research-workflow/README.md)
 - [个人知识库](research-workflow/skills/kk-knowledge-base/SKILL.md)
 - [研究模式-konw your context](research-workflow/skills/kk-research/SKILL.md)

@@ -1,0 +1,4 @@
+interface:
+  display_name: "美元流动性"
+  short_description: "生成和更新独立美元流动性看板，保留指标口径、数据日期、历史图与议息概率"
+  default_prompt: "使用 $kk-usd-liquidity 生成一个独立的美元流动性看板，更新可用数据并说明缺项。"
