@@ -13,8 +13,8 @@
 ## 阅读与会议整理 Skill
 
 - [安装与使用说明](kk-skills/README.md)
-- [文章、论文与书籍的推理问答提取](kk-skills/skills/kk-qa/SKILL.md)
-- [会议纪要、逐字稿与会议实录](kk-skills/skills/kk-hyjy/SKILL.md)
+- [文章、论文与书籍的问答提取](kk-skills/skills/kk-qa/SKILL.md)
+- [会议纪要](kk-skills/skills/kk-hyjy/SKILL.md)
 
 ## 思考文章
 
