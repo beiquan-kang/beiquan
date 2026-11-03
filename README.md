@@ -4,7 +4,7 @@
 
 这里记录我关于投资研究、AI 应用，以及日常学习的思考，也分享我在工作和学习中使用的 AI Skill。
 
-## 我的 Skill 与研究实践
+## AI研究实践
 
 - [美元流动性跟踪](kk-usd-liquidity/README.md)
 
