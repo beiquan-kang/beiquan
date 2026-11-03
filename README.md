@@ -9,3 +9,9 @@
 - [KK 研究工作流：设计思路与使用准备](research-workflow/README.md)
 - [kk-knowledge-base：个人知识库](research-workflow/skills/kk-knowledge-base/SKILL.md)
 - [kk-research：独立研究模式](research-workflow/skills/kk-research/SKILL.md)
+
+## 阅读与会议整理 Skill
+
+- [安装与使用说明](kk-skills/README.md)
+- [kk-qa：文章、论文与书籍的推理问答提取](kk-skills/skills/kk-qa/SKILL.md)
+- [kk-hyjy：会议纪要、逐字稿与会议实录](kk-skills/skills/kk-hyjy/SKILL.md)

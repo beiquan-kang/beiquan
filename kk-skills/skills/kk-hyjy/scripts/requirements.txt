@@ -1,0 +1,8 @@
+faster-whisper==1.2.1
+av==16.1.0
+yt-dlp==2026.10.26
+yt-dlp-ejs==0.8.0
+requests==2.34.2
+filelock==4.2.4
+python-dotenv==1.2.2
+publicsuffixlist==1.1.2.20261023
