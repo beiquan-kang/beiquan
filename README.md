@@ -8,7 +8,7 @@
 
 - [研究工作流：设计思路与使用准备](research-workflow/README.md)
 - [个人知识库](research-workflow/skills/kk-knowledge-base/SKILL.md)
-- [精简context研究模式](research-workflow/skills/kk-research/SKILL.md)
+- [研究模式-konw your context](research-workflow/skills/kk-research/SKILL.md)
 
 ## 阅读与会议整理 Skill
 
