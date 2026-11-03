@@ -6,18 +6,13 @@ author: beiquan
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
-  derived_from:
-    name: ljg-qa
-    author: "李继刚（lijigang）"
-    url: https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-qa
-    revision: adfdfb3319d94bfc8193a237c0e4c1e9105efc37
-    description: "参考原技能的问答提取流程，调整为三段式答案与对话内交付。"
-    license: MIT
   hermes:
     tags: [qa, reading, reasoning, extraction]
     related_skills: []
 ---
 # kk-qa：问答提取
+
+本技能基于 [ljg-qa](https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-qa) 修改而来。
 
 读一篇文章、论文或书，把作者的思想拆成「为什么—怎么做—边界」的问答链。读者顺着问题读下去，能够理解核心结论及其推导过程。
 
