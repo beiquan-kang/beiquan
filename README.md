@@ -15,3 +15,11 @@
 - [安装与使用说明](kk-skills/README.md)
 - [kk-qa：文章、论文与书籍的推理问答提取](kk-skills/skills/kk-qa/SKILL.md)
 - [kk-hyjy：会议纪要、逐字稿与会议实录](kk-skills/skills/kk-hyjy/SKILL.md)
+
+## 思考文章
+
+以下文章发表于我的公众号「空白册」，点击标题阅读原文。
+
+- [C端Agent有价值吗？](https://mp.weixin.qq.com/s/XdniaAB2W7WK9gKyiEEMVQ)
+- [腾讯 AI 的解法](https://mp.weixin.qq.com/s/eIVxY1yatqiwS2BDgKoI0Q)
+- [美团的持久战](https://mp.weixin.qq.com/s/VKGnFOc7RqAQdA-YF1w5fg)
