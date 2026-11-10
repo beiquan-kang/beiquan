@@ -1,10 +1,8 @@
 # 来源与第三方许可
 
-## kk-qa
+## kk-structural-reading
 
-参考 [李继刚的 ljg-qa](https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-qa)，来源版本为 `adfdfb3319d94bfc8193a237c0e4c1e9105efc37`。本技能采用三段式答案，并默认在对话内交付。原作者为李继刚（lijigang），改编署名按技能原文保留为 beiquan。
-
-原 MIT 许可保存在 [技能许可](skills/kk-qa/assets/LICENSE)及[许可副本](licenses/ljg-qa-MIT.txt)。
+由北圈（beiquan-kang）设计，Hermes Agent 协作整理，采用本目录的 [MIT 许可](LICENSE)。
 
 ## kk-hyjy
 
