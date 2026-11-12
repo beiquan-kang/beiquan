@@ -8,14 +8,16 @@
 
 - [综合投研周报](skills/kk-week/README.md)
 - [美元流动性跟踪](skills/kk-usd-liquidity/README.md)
-- [个人知识库](skills/kk-knowledge-base/SKILL.md)
-- [研究模式-konw your context](skills/kk-research/SKILL.md)
+- [个人知识库](skills/kk-knowledge-base/README.md)
+- [研究模式-konw your context](skills/kk-research/README.md)
 - [结构深读](skills/kk-structural-reading/SKILL.md)
 - [会议纪要](skills/kk-hyjy/SKILL.md)
 
-相关说明：[研究工作流：设计思路与使用准备](articles/research-workflow/README.md) · [阅读与会议整理技能的安装说明](articles/reading-meetings/README.md)
+使用说明：[个人知识库与独立研究](skills/kk-research/README.md)
 
 ## 文章
+
+- [从个人资料库到独立研究：我的 AI 研究工作流](articles/研究工作流设计思路.md)
 
 以下文章发表于我的公众号「空白册」，点击标题阅读原文。
 
