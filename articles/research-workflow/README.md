@@ -6,8 +6,8 @@
 
 | 文件 | 用途 |
 |---|---|
-| [kk-knowledge-base](skills/kk-knowledge-base/SKILL.md) | 资料入库、原文检索、可阅读归档与结果验收 |
-| [kk-research](skills/kk-research/SKILL.md) | 独立研究、角色分工、证据补充和实际输入披露 |
+| [kk-knowledge-base](../../skills/kk-knowledge-base/SKILL.md) | 资料入库、原文检索、可阅读归档与结果验收 |
+| [kk-research](../../skills/kk-research/SKILL.md) | 独立研究、角色分工、证据补充和实际输入披露 |
 | [设计思路](设计思路草稿.md) | 为什么这样设计，以及两部分如何配合 |
 
 ## 从哪里开始

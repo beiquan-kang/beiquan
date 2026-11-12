@@ -4,17 +4,16 @@
 
 这里记录我关于投资研究、AI 应用，以及日常学习的思考，也分享我在工作和学习中使用的 AI Skill。
 
-## Skill
+## Skills
 
-- [综合投研周报](kk-week/README.md)
+- [综合投研周报](skills/kk-week/README.md)
+- [美元流动性跟踪](skills/kk-usd-liquidity/README.md)
+- [个人知识库](skills/kk-knowledge-base/SKILL.md)
+- [研究模式-konw your context](skills/kk-research/SKILL.md)
+- [结构深读](skills/kk-structural-reading/SKILL.md)
+- [会议纪要](skills/kk-hyjy/SKILL.md)
 
-- [美元流动性跟踪](kk-usd-liquidity/README.md)
-- [个人知识库](research-workflow/skills/kk-knowledge-base/SKILL.md)
-- [研究模式-konw your context](research-workflow/skills/kk-research/SKILL.md)
-- [结构深读](kk-skills/skills/kk-structural-reading/SKILL.md)
-- [会议纪要](kk-skills/skills/kk-hyjy/SKILL.md)
-
-相关说明：[研究工作流：设计思路与使用准备](research-workflow/README.md) · [阅读与会议整理技能的安装说明](kk-skills/README.md)
+相关说明：[研究工作流：设计思路与使用准备](articles/research-workflow/README.md) · [阅读与会议整理技能的安装说明](articles/reading-meetings/README.md)
 
 ## 文章
 

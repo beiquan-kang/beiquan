@@ -4,8 +4,8 @@
 
 | 技能 | 功能 | 默认交付 |
 |---|---|---|
-| [结构深读](skills/kk-structural-reading/SKILL.md) | 还原观点材料的核心答案、论证推进与原文位置 | 对话中的 Markdown 正文 |
-| [会议纪要](skills/kk-hyjy/SKILL.md) | 将音视频或文字稿整理为会议纪要、逐字稿或会议实录 | 成品文件；纪要包含「全文结构图、结构深读、逐字稿」 |
+| [结构深读](../../skills/kk-structural-reading/SKILL.md) | 还原观点材料的核心答案、论证推进与原文位置 | 对话中的 Markdown 正文 |
+| [会议纪要](../../skills/kk-hyjy/SKILL.md) | 将音视频或文字稿整理为会议纪要、逐字稿或会议实录 | 成品文件；纪要包含「全文结构图、结构深读、逐字稿」 |
 
 ## 安装
 
@@ -13,7 +13,7 @@
 
 可用 `/kk-structural-reading` 或 `/kk-hyjy` 调用。会议纪要使用结构深读技能整理正文，因此建议两个技能一起安装。
 
-已有文字稿时可直接开始。需要处理音视频时，先按 [转写环境安装说明](skills/kk-hyjy/references/runtime-setup.md) 安装 Python 依赖、FFmpeg 和本地模型。YouTube 另需 Node.js；平台访问受权限与网络环境影响。
+已有文字稿时可直接开始。需要处理音视频时，先按 [转写环境安装说明](../../skills/kk-hyjy/references/runtime-setup.md) 安装 Python 依赖、FFmpeg 和本地模型。YouTube 另需 Node.js；平台访问受权限与网络环境影响。
 
 ## 使用示例
 
