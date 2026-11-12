@@ -6,6 +6,8 @@
 
 ## Skill
 
+- [综合投研周报](kk-week/README.md)
+
 - [美元流动性跟踪](kk-usd-liquidity/README.md)
 - [个人知识库](research-workflow/skills/kk-knowledge-base/SKILL.md)
 - [研究模式-konw your context](research-workflow/skills/kk-research/SKILL.md)

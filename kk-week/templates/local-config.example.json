@@ -1,0 +1,16 @@
+{
+  "project_root": "",
+  "timezone": "Asia/Hong_Kong",
+  "python_executable": "python3",
+  "finance_client": "",
+  "choice_sdk_directory": "",
+  "providers": {
+    "choice": {"enabled": false, "credential_env": "", "mcp_alias": ""},
+    "mx": {"enabled": false, "credential_env": "", "mcp_alias": ""},
+    "wind-market": {"enabled": false, "credential_env": "", "mcp_alias": ""}
+  },
+  "history_directory": "data",
+  "earnings_project_directory": "",
+  "frozen_basket_directory": "",
+  "permission_check": "not_checked"
+}
