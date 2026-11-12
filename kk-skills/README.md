@@ -1,4 +1,4 @@
-# 亮哥的 KK Skills
+# Skills
 
 用于 Hermes Agent 的中文阅读与会议整理技能。
 
