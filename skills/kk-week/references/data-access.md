@@ -17,7 +17,7 @@
 
 ## 验证表
 
-每一类至少执行一个真实请求，并记录status、source、field、actual_start、actual_end、unit、count、missing_count及request_file。status分为verified、permission_denied、authentication_required、quota_exhausted、empty、schema_mismatch。最后四类不能标成授权已完成。核验记录在本机项目内保留，不随技能包分发。
+每一类至少执行一个真实请求，并记录status、source、field、actual_start、actual_end、unit、count、missing_count及request_file。status分为verified、permission_denied、authentication_required、quota_exhausted、empty、schema_mismatch。最后四类不能标成授权已完成。批量包装器须记录每个子请求的退出码，并逐一检查响应的业务状态、序列标识、非空记录和实际观测日；包装器退出 0 只表示循环跑完。核验记录在本机项目内保留，不随技能包分发。
 
 - 行情：恒指、国企、恒科两个实际交易日的CLOSE。
 - 估值：恒指PE_TTM、DIVIDEND_YIELD；检查币种与百分比尺度。
